@@ -885,7 +885,7 @@ section{
         line-height: 60px;
     }
     .page .container .page-text p{
-        font-size: 14px;
+        font-size: 12px;
         margin: 15px;
     }
     .contact .container .all-data h1{
@@ -926,7 +926,7 @@ section{
         width: 90%;
     }
     .page .container .page-image{
-        width: 100%;
+        width: 90%;
     }
     .page .container .page-image img{
         width: 100%;
@@ -963,7 +963,7 @@ section{
         font-size: 40px;
     }
     .contact .container .all-data p{
-        font-size: 12px;
+        font-size: 10px;
     }
     .contact .container .all-data .search-bar{
         width: 90%;
