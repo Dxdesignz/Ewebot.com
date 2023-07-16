@@ -908,14 +908,22 @@ section{
     .header .container .navbar{
         padding-left: 5px;
     }
+    .header .searchbar{
+        padding: 0px 5px;
+    }
     .hero-area .container .hero-text h1{
         font-size: 60px;
     }
     .hero-area .container .hero-text p{
         margin: 15px 0px;
     }
-    .header .searchbar{
-        padding: 0px 5px;
+    .hero-area .container .hero-text .searchbar .input{
+        background-color: var(---white);
+        width: 90%;
+    }
+    .hero-area .container .hero-text .searchbar .input input{
+        background-color: var(---white);
+        width: 100%;
     }
     .page .container .page-image{
         width: 100%;
@@ -926,21 +934,21 @@ section{
     .experience .container .left-data .one .line{
         background-color: var(---lightgray);
         border-radius: 100px;
-        width: 100%;
+        width: 90%;
         height: 10px;
         position: relative;
     }
     .experience .container .left-data .one .line2{
         background-color: var(---lightgray);
         border-radius: 100px;
-        width: 100%;
+        width: 90%;
         height: 10px;
         position: relative;
     }
     .experience .container .left-data .one .line3{
         background-color: var(---lightgray);
         border-radius: 100px;
-        width: 100%;
+        width: 90%;
         height: 10px;
         position: relative;
     }
@@ -958,10 +966,10 @@ section{
         font-size: 12px;
     }
     .contact .container .all-data .search-bar{
-        width: 100%;
+        width: 90%;
     }
     .contact .container .all-data .search-bar input{
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -978,8 +986,16 @@ section{
     .header .container .navbar{
         padding-left: 2px;
     }
+    .header .container .right-data .header-two-icon{
+        margin-right: 10px;
+    }
     .hero-area .container .hero-text h1{
         font-size: 50px;
+        line-height: 60px;
+    }
+    .hero-area .container .hero-text .searchbar .input #search-btn{
+        width: 100px;
+        height: 60px;
     }
     .header .searchbar{
         padding: 0px 2px;
@@ -988,11 +1004,18 @@ section{
         display: none;
     }
     .offer .slider-box .slider{
-        width: 100%;
-        height: 350px;
+        width: 95%;
+        height: 380px;
     }
     .offer .heading h1{
-        line-height: 70px;
+        line-height: 60px;
+        font-size: 50px;
+    }
+    .offer .slider-box .box p{
+        font-size: 10px;
+    }
+    .offer .slider-box{
+        margin-top: 30px;
     }
     .experience .container .left-data h1{
         font-size: 50px;
@@ -1000,6 +1023,7 @@ section{
     }
     .experience .container .left-data p{
         margin-top: 10px;
+        font-size: 12px;
     }
     .experience .container .left-data .button a{
         display: none;
