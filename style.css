@@ -885,7 +885,7 @@ section{
         line-height: 60px;
     }
     .page .container .page-text p{
-        font-size: 14px;
+        font-size: 12px;
         margin: 15px;
     }
     .contact .container .all-data h1{
@@ -915,9 +915,15 @@ section{
         font-size: 60px;
     }
     .hero-area .container .hero-text p{
+<<<<<<< HEAD
         margin: 15px 0px;
         font-size: 14px;
         line-height: 40px;
+=======
+        margin: 10px 0px;
+        font-size: 10px;
+        line-height: 20px;
+>>>>>>> bf9bc816028f2cf0c3a772996ac88ceee69261ff
     }
     .hero-area .container .hero-text .searchbar .input{
         background-color: var(---white);
@@ -925,7 +931,7 @@ section{
     }
     .hero-area .container .hero-text .searchbar .input input{
         background-color: var(---white);
-        width: 100%;
+        width: 90%;
     }
     .page .container .page-text h1{
         font-size: 50px;
@@ -969,9 +975,13 @@ section{
         line-height: 50px;
     }
     .contact .container .all-data p{
+<<<<<<< HEAD
         font-size: 14px;
         line-height: 40px;
         margin: 15px 0px;
+=======
+        font-size: 10px;
+>>>>>>> bf9bc816028f2cf0c3a772996ac88ceee69261ff
     }
     .contact .container .all-data .search-bar{
         width: 90%;
