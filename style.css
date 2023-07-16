@@ -916,8 +916,8 @@ section{
     }
     .hero-area .container .hero-text p{
         margin: 10px 0px;
-        font-size: 12px;
-        line-height: 50px;
+        font-size: 10px;
+        line-height: 30px;
     }
     .hero-area .container .hero-text .searchbar .input{
         background-color: var(---white);
