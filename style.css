@@ -923,7 +923,7 @@ section{
     }
     .hero-area .container .hero-text .searchbar .input input{
         background-color: var(---white);
-        width: 100%;
+        width: 90%;
     }
     .page .container .page-image{
         width: 100%;
