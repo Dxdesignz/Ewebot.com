@@ -895,7 +895,7 @@ section{
 
 @media (max-width:640px) {
     section{
-        padding: 10px 5px;
+        padding: 10px 10px;
     }
     .header .container .right-data button{
         display: none;
@@ -974,9 +974,6 @@ section{
 }
 
 @media (max-width:400px) {
-    section{
-        padding: 10px 2px;
-    }
     .header .container .logo{
         width: 150px;
     }
@@ -987,7 +984,7 @@ section{
         padding-left: 2px;
     }
     .header .container .right-data .header-two-icon{
-        margin-right: 10px;
+        margin-right: 2px;
     }
     .hero-area .container .hero-text h1{
         font-size: 50px;
