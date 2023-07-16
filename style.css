@@ -916,6 +916,8 @@ section{
     }
     .hero-area .container .hero-text p{
         margin: 15px 0px;
+        font-size: 14px;
+        line-height: 40px;
     }
     .hero-area .container .hero-text .searchbar .input{
         background-color: var(---white);
@@ -925,8 +927,11 @@ section{
         background-color: var(---white);
         width: 100%;
     }
+    .page .container .page-text h1{
+        font-size: 50px;
+    }
     .page .container .page-image{
-        width: 100%;
+        width: 90%;
     }
     .page .container .page-image img{
         width: 100%;
@@ -961,9 +966,12 @@ section{
     }
     .contact .container .all-data h1{
         font-size: 40px;
+        line-height: 50px;
     }
     .contact .container .all-data p{
-        font-size: 12px;
+        font-size: 14px;
+        line-height: 40px;
+        margin: 15px 0px;
     }
     .contact .container .all-data .search-bar{
         width: 90%;
@@ -987,8 +995,8 @@ section{
         margin-right: 2px;
     }
     .hero-area .container .hero-text h1{
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 50px;
     }
     .hero-area .container .hero-text .searchbar .input #search-btn{
         width: 100px;
@@ -996,6 +1004,10 @@ section{
     }
     .header .searchbar{
         padding: 0px 2px;
+    }
+    .page .container .page-text h1{
+        font-size: 40px;
+        line-height: 50px;
     }
     .page .container .page-text .two-button .btn{
         display: none;
@@ -1005,8 +1017,8 @@ section{
         height: 380px;
     }
     .offer .heading h1{
-        line-height: 60px;
-        font-size: 50px;
+        line-height: 50px;
+        font-size: 40px;
     }
     .offer .slider-box .box p{
         font-size: 10px;
@@ -1015,15 +1027,22 @@ section{
         margin-top: 30px;
     }
     .experience .container .left-data h1{
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 10px;
+        line-height: 50px;
+    }
+    .experience .container .left-data h3{
+        font-size: 20px;
     }
     .experience .container .left-data p{
-        margin-top: 10px;
+        margin-top: 15px;
         font-size: 12px;
     }
     .experience .container .left-data .button a{
         display: none;
+    }
+    .contact .container{
+        height: 450px;
     }
 }
 /* media quries */
